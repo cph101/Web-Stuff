@@ -1,8 +1,12 @@
 @font-face {
-  font-family: sfPro;
-  src: url("https://raw.githubusercontent.com/cph101/Web-Stuff/main/Fonts/SF-Pro-Display-Medium-1.otf") format("opentype");
+    font-family: 'SFPro';
+    src: url('https://raw.githubusercontent.com/cph101/Web-Stuff/main/Fonts/SFProDisplay-Medium.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/cph101/Web-Stuff/main/Fonts/SFProDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
 * {
-  font-family: sfPro;
+  font-family: 'SFPro';
 }
